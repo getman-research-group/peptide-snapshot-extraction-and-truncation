@@ -18,7 +18,7 @@ This repository contains Python scripts developed to process GROMACS MD trajecto
 
 Selects specified time points from a GROMACS MD trajectory in XTC format and exports the corresponding atomic coordinates as PDB files.
 
-### `peptide-truncation.py`
+### `peptide-and-water-truncation.py`
 
 Applies a radial-cutoff-based truncation strategy that retains the region of interest around a metal ion. The script removes solvent molecules beyond a specified cutoff distance, truncates the peptide beyond a radial cutoff, and caps broken C-C bonds with hydrogen atoms.
 
